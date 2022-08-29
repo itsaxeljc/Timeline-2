@@ -1,0 +1,50 @@
+.scroll{
+    position:relative;
+    width: 80vw;
+    height: 73vh;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 200px 10vw 30px 10vw;
+
+    @media (max-width: 1000px){
+        margin: 200px 5vw 30px 5vw;
+    }
+}
+
+.innerContainer{
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @media (max-width: 1700px){
+        scale: 0.9;
+    }
+
+    @media (max-width: 1400px){
+        scale: 0.8;
+    }
+}
+
+//Scrollbar styles
+.scroll::-webkit-scrollbar {
+    width: 6px;     /* Tamaño del scroll en vertical */
+    height: 6px;    /* Tamaño del scroll en horizontal */
+    /*display: none;*/
+  }
+  /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+  .scroll::-webkit-scrollbar-thumb {
+    background: #595959;
+    border-radius: 4px;
+    /*display: none;*/
+  }
+  /* Ponemos un color de fondo y redondeamos las esquinas del track */
+  .scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+    /*display: none;*/ 
+  }

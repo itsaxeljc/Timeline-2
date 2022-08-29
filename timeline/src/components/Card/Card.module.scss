@@ -1,0 +1,111 @@
+.card{
+    min-width: 31vw;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+    margin-right: 19vw;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 1000px){
+        min-width: 100vw;
+    }
+    
+    span{
+        font-family: Audrey-Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+        color: #292929;
+        text-align: center;
+    }
+
+    p{
+        width: 86%;
+        font-family: SeoulNamsan-CB;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 21px;
+        text-align: center;
+        height: auto;
+        white-space: normal;
+
+        @media (max-width: 1700px){
+            width: 90%;
+        }
+    
+        @media (max-width: 1400px){
+            width: 100%;
+        }
+
+        @media (max-width: 1000px){
+            width: 60%;
+        }
+    }
+
+    h2{
+        font-family: 'Audrey';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #292929;
+        margin-top: 0%;
+    }
+}
+
+.cover{
+    width: 100%;
+    display: inline-block;
+    h1{
+        white-space: normal;
+        width: 100%;
+        font-family: 'Audrey';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 150px;
+        line-height: 180px;
+        text-align: center;
+        color: #1E1E1E;
+        margin-left:6%;
+        margin-top: 0%;
+
+        @media (max-width: 1700px){
+            scale: 0.9;
+            max-width: 60%;
+        }
+    
+        @media (max-width: 1400px){
+            scale: 0.8;
+            max-width: 85%;
+        }
+
+        @media (max-width: 1400px){
+            scale: 0.7;
+        }
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: -50vh;
+        z-index: 1;
+        img{
+            display: flex;
+            align-content: center;
+            scale: 0.85;
+
+            @media (max-width: 1400px){
+                scale: 0.7;
+            }
+        }
+    }
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+

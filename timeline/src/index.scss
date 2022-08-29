@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E9E9E9;
+}
+
+header{
+  font-family: SeoulNamsan-CB;
+  position: fixed;
+  top: 90px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  width: 100%;
+  span{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10%;
+    margin: 0 10vw 0 10vw;
+
+    @media (max-width: 1400px){
+      justify-content: center;
+      font-size: 18px;
+    }
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+//Scrollbar styles
+.scroll::-webkit-scrollbar {
+  width: 6px;     /* Tamaño del scroll en vertical */
+  height: 6px;    /* Tamaño del scroll en horizontal */
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.scroll::-webkit-scrollbar-thumb {
+  background: #595959;
+  border-radius: 4px;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}

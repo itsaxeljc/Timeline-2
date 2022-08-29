@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SeoulNamsan-CB';
+  src:url('./assets/fonts/SeoulNamsan-CB.ttf.woff') format('woff'),
+      url('./assets/fonts/SeoulNamsan-CB.ttf.svg#SeoulNamsan-CB') format('svg'),
+      url('./assets/fonts/SeoulNamsan-CB.ttf.eot'),
+      url('./assets/fonts/SeoulNamsan-CB.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Audrey;
+  src: url(./assets/fonts/Audrey-Normal.otf);
+}
+
+@font-face {
+  font-family: Audrey-Bold;
+  src: url(./assets/fonts/Audrey-Bold.otf);
+}
