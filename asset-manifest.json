@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Timeline-2/static/css/main.69bd5c22.css",
+    "main.js": "/Timeline-2/static/js/main.5461d917.js",
+    "static/js/787.e097d17b.chunk.js": "/Timeline-2/static/js/787.e097d17b.chunk.js",
+    "static/media/SeoulNamsan-CB.ttf.eot": "/Timeline-2/static/media/SeoulNamsan-CB.ttf.d47337d8c5ac08e1e68a.eot",
+    "static/media/SeoulNamsan-CB.ttf.woff": "/Timeline-2/static/media/SeoulNamsan-CB.ttf.4cab396b1f43b24c8693.woff",
+    "static/media/ANDROID.png": "/Timeline-2/static/media/ANDROID.6d78bc82443355b74d0b.png",
+    "static/media/XAMARIN.png": "/Timeline-2/static/media/XAMARIN.baaad849a87d0492e5f1.png",
+    "static/media/IONIC.png": "/Timeline-2/static/media/IONIC.0e1c8ae0fdf8f3f95144.png",
+    "static/media/REACTNATIVE.png": "/Timeline-2/static/media/REACTNATIVE.d71df5d7adae1aa75562.png",
+    "static/media/CSS.png": "/Timeline-2/static/media/CSS.a7a525ecef7a3b1f809a.png",
+    "static/media/IOS.png": "/Timeline-2/static/media/IOS.0e5f282900c66e777b7d.png",
+    "static/media/SWIFT.png": "/Timeline-2/static/media/SWIFT.42b4cd2d0f2600aa16aa.png",
+    "static/media/JS.png": "/Timeline-2/static/media/JS.8c07b0a58d98b806102f.png",
+    "static/media/REACT.png": "/Timeline-2/static/media/REACT.360a9e5009eeed239f99.png",
+    "static/media/ANGULAR.png": "/Timeline-2/static/media/ANGULAR.c32adee5cf9a046ad456.png",
+    "static/media/HTML.png": "/Timeline-2/static/media/HTML.e0f31bd089b19795c76f.png",
+    "static/media/WINDOWS.png": "/Timeline-2/static/media/WINDOWS.9541f60b67449f9551a6.png",
+    "static/media/CORDOVA.png": "/Timeline-2/static/media/CORDOVA.89eb961cee46b153e17a.png",
+    "static/media/Audrey-Normal.otf": "/Timeline-2/static/media/Audrey-Normal.dbf539370e1b91e7fef5.otf",
+    "static/media/Audrey-Bold.otf": "/Timeline-2/static/media/Audrey-Bold.9b8e7531ee7197c58606.otf",
+    "static/media/PHONEGAP.png": "/Timeline-2/static/media/PHONEGAP.c631834ef080eacb45ba.png",
+    "static/media/SeoulNamsan-CB.ttf.svg": "/Timeline-2/static/media/SeoulNamsan-CB.ttf.4384c6d99f36e688fc7f.svg",
+    "static/media/FLUTTER.png": "/Timeline-2/static/media/FLUTTER.e89d62181c93f9504682.png",
+    "index.html": "/Timeline-2/index.html",
+    "main.69bd5c22.css.map": "/Timeline-2/static/css/main.69bd5c22.css.map",
+    "main.5461d917.js.map": "/Timeline-2/static/js/main.5461d917.js.map",
+    "787.e097d17b.chunk.js.map": "/Timeline-2/static/js/787.e097d17b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bd5c22.css",
+    "static/js/main.5461d917.js"
+  ]
+}
